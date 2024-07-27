@@ -1,0 +1,50 @@
+body {
+    margin:0px;
+    text-align: center;
+    background-image: url(img/bg.jpg);
+    background-size: contain;
+    font-family: Roboto;
+}
+
+.header {
+    background-color: black;
+
+}
+.header img {max-width: 300px;}
+.card-character {
+    max-width: 600px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.card-header {
+    font-size: 1.7rem;
+    padding: 10px 10px;
+    position: relative;
+
+}
+.card-header h2 {
+    max-width: 450px;
+    margin: auto;
+}
+.card-body {padding:20px}
+.card-body p {width: 33%;}
+
+.description {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+}
+
+#status {
+    position: absolute;
+    right: 36px;
+    top: 20px;
+    font-size: 1rem;
+    padding: 5px 11px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
